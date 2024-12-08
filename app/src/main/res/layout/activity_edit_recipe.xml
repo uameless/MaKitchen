@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier la recette"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom de la recette"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrédients"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Étapes de préparation"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etTemps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le temps (en minutes)"
+        android:layout_marginBottom="20dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer les modifications"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/ic_save"
+        android:background="@drawable/pill_btn"
+        />
+
+</LinearLayout>

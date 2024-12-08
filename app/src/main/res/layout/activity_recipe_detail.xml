@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom de la recette"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvIngredientstxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Les Ingredients :"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrédients"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvStepstxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Les Étapes de préparation :"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Étapes de préparation"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvTempstxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Durée de la recette (minutes):"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvTemps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Le temps (en minutes)"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btnDeleteRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supprimer cette recette"
+            android:drawableStart="@drawable/ic_delete"
+            android:background="@drawable/pill_btn"
+            />
+        <Button
+            android:id="@+id/btnEditRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modifier cette recette"
+            android:drawableStart="@drawable/ic_edit"
+            android:background="@drawable/pill_btn"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>

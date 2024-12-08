@@ -22,7 +22,7 @@ Makitchen est une application Android simple et intuitive pour gérer vos recett
 ## 🚀 Installation
 1. Clonez ce dépôt dans votre environnement local :
    ```bash
-   git clone https://github.com/<ton-utilisateur>/makitchen.git
+   git clone https://github.com/uameless/MaKitchen
    ```
 2. Ouvrez le projet dans Android Studio.
 3. Connectez un appareil Android ou configurez un émulateur.
@@ -44,4 +44,3 @@ Makitchen a été conçu pour simplifier la gestion des recettes de cuisine. Que
 ---
 
 ### © 2024 Makitchen - EL HACHYMI Ahmed Yassine.
-```
